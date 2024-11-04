@@ -1,0 +1,44 @@
+body {
+    
+    font-family: sans-serif;
+    background-color: rgba(255, 228, 196, 0.597);
+    height: 100vh;
+    /* margin: 0 auto; */
+   
+}
+
+.parent {
+    display: flex;
+    padding: 20px;
+    margin: 30px;
+    background-color: skyblue;
+    border-radius: 10px;
+}
+
+.item {
+    padding: 20px;
+    background-color: rgb(215, 193, 188);
+    margin: 10px;
+}
+
+.container- {
+    justify-content: start;
+}
+.container-2 {
+    justify-content: end;
+}
+
+.container-3 {
+    justify-content: center;
+}
+.container-4 {
+    justify-content: space-between;
+}
+
+.container-5 {
+    justify-content: space-around;
+}
+
+.container-6 {
+    justify-content: space-evenly;
+}
